@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <style>
+        /* Simple reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        /* Center content */
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Container */
+        .container {
+            text-align: center;
+        }
+
+        /* Heading */
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: normal;
+        }
+
+        /* Input */
+        input {
+            padding: 8px;
+            width: 220px;
+            border: 1px solid #000;
+            outline: none;
+        }
+
+        /* Buttons */
+        button {
+            padding: 8px 12px;
+            margin: 10px 5px 0 5px;
+            border: 1px solid #000;
+            background: none;
+            cursor: pointer;
+        }
+
+        /* Result text */
+        #display {
+            margin-top: 15px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Palindrome Checker</h1>
+        <input type="text" id="text">
+        <br>
+        <button onclick="checkPalindrome()">Submit</button>
+        <button onclick="cleartext()">Reset</button>
+        <div id="display"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+
+
+</html>
